@@ -1,5 +1,6 @@
 .home{
-
+     width: 100%;
+     height: 95vh;
      background-color: #390918;
      background-image: linear-gradient(rgba(50,0,30,0.58), rgba(50,0,30,0.5)), url('https://wallpaperaccess.com/full/322837.jpg');
      background-repeat: no-repeat;
@@ -35,7 +36,7 @@
 #description {
 
      z-index: 99;
-     font-size: 30px;
+     font-size: 3vh;
      padding-top: 2.5%;
 
 }
@@ -44,7 +45,7 @@
 
      z-index: 999;
      text-align: center;
-     font-size: 21px;
+     font-size: 2.5vh;
      margin-bottom: 1%;
 
 }
