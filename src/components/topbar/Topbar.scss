@@ -2,7 +2,7 @@
 
 .topbar{
      width:100%;
-     height:70px;
+     height:5vh;
      background-color: black;
      color: lightpink;
      position: fixed;
@@ -12,38 +12,36 @@
      .wrapper{
           padding: 10px 30px;
           display: grid;
-          grid-template-columns:1fr 1fr 1fr 1fr;
+          grid-template-columns: 1fr 1fr 1fr 1fr;
           align-items: center;
           justify-content: space-between;
 
-          .left{
 
-               .homelink {
-                    font-size: 20px;
-                    text-decoration: none;
-                    color: inherit;
+          .homelink 
+               {
+               font-size: 2.5vh;
+               text-decoration: underline;
+               color: inherit;
                }
 
-               .portfoliolink {
-                    font-size: 20px;
-                    text-decoration: none;
-                    color: inherit;
-               }
-          }
-
-          .right{
-
-               .techstacklink {
-                    font-size: 20px;
-                    text-decoration: none;
-                    color: inherit;
+          .portfoliolink 
+               {
+               font-size: 2.5vh;
+               text-decoration: underline;
+               color: inherit;
                }
 
-               .contactlink {
-                    font-size: 20px;
-                    text-decoration: none;
-                    color: inherit;
+
+          .techstacklink {
+               font-size: 2.5vh;
+               text-decoration: underline;
+               color: inherit;
                }
+
+          .aboutlink {
+               font-size: 2.5vh;
+               text-decoration: underline;
+               color: inherit;
           }
      }
 }
