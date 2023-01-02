@@ -5,10 +5,10 @@ import NVPGIF from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/imag
 import PodCatsGIF from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/podcats-video.gif'
 import "./Projects.scss"
 
-export default function Portfolio() {
+export default function Projects() {
   return (
-    <div className='portfolio' id='portfolio'>
-      <div id='h1'><h1>Portfolio</h1></div>
+    <div className='projects' id='projects'>
+      <div id='h1'><h1>Projects</h1></div>
       
       <div className='card1'>
         <br></br>

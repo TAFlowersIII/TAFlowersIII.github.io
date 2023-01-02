@@ -1,4 +1,4 @@
-.portfolio{
+.projects{
      background: linear-gradient(rgba(30,0,50,0.58), rgba(30,0,50,0.5)), url('https://wallpaperaccess.com/full/322837.jpg');
      color: #e1c3f5;
      display: grid;
@@ -18,6 +18,18 @@
 .card1 {
      box-shadow: 0 4px 8px 0 rgba(125, 22, 22, 0.5);
      transition: 1s;
+
+     a:link {
+          color: #d9acf6;
+     }
+
+     a:visited {
+          color: #d9acf6;
+     }
+
+     a:hover {
+          color:antiquewhite;
+     }
 }
 
 .card1:hover {
@@ -32,6 +44,18 @@
 .card2 {
      box-shadow: 0 4px 8px 0 rgba(125, 22, 22, 0.5);
      transition: 1s;
+
+     a:link {
+          color: #d9acf6;
+     }
+
+     a:visited {
+          color: #d9acf6;
+     }
+
+     a:hover {
+          color:antiquewhite;
+     }
 }
 
 .card2:hover {
@@ -45,6 +69,18 @@
 .card3 {
      box-shadow: 0 4px 8px 0 rgba(125, 22, 22, 0.5);
      transition: 1s;
+
+     a:link {
+          color: #d9acf6;
+     }
+
+     a:visited {
+          color: #d9acf6;
+     }
+
+     a:hover {
+          color:antiquewhite;
+     }
 }
 
 .card3:hover {
@@ -58,6 +94,18 @@
 .card4 {
      box-shadow: 0 4px 8px 0 rgba(125, 22, 22, 0.5);
      transition: 1s;
+
+     a:link {
+          color: #d9acf6;
+     }
+
+     a:visited {
+          color: #d9acf6;
+     }
+
+     a:hover {
+          color:antiquewhite;
+     }
 }
 
 .card4:hover {

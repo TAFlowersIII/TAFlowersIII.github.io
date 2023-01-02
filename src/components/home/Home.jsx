@@ -29,8 +29,8 @@ export default function Home() {
       <div id='contact'>
         <h4>
           <a href="https://github.com/TAFlowersIII">Github</a> | 
-          <a href="https://www.linkedin.com/in/taflowersiii/">LinkedIn</a> | 
-          <a href="https://aqua-idaline-43.tiiny.site/">Resume</a>
+          <a href="https://www.linkedin.com/in/taflowersiii/"> LinkedIn</a> | 
+          <a href="https://aqua-idaline-43.tiiny.site/"> Resume</a>
         </h4>
       </div>
       
