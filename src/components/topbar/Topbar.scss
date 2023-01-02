@@ -1,0 +1,49 @@
+@import "../../global.scss";
+
+.topbar{
+     width:100%;
+     height:70px;
+     background-color: black;
+     color: lightpink;
+     position: fixed;
+     top: 0;
+     z-index: 2;
+
+     .wrapper{
+          padding: 10px 30px;
+          display: grid;
+          grid-template-columns:1fr 1fr 1fr 1fr;
+          align-items: center;
+          justify-content: space-between;
+
+          .left{
+
+               .homelink {
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: inherit;
+               }
+
+               .portfoliolink {
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: inherit;
+               }
+          }
+
+          .right{
+
+               .techstacklink {
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: inherit;
+               }
+
+               .contactlink {
+                    font-size: 20px;
+                    text-decoration: none;
+                    color: inherit;
+               }
+          }
+     }
+}

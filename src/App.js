@@ -1,8 +1,11 @@
-import Topbar from './components/topbar/Topbar'
-import Home from "./components/home/Home"
-import About from './components/about/About'
-import Projects from './components/projects/Projects'
-import Contact from './components/contact/Contact'
+import React from "react";
+
+import Topbar from './components/topbar/Topbar.jsx'
+import Home from "./components/home/Home.jsx"
+import About from './components/about/About.jsx'
+import Projects from './components/projects/Projects.jsx'
+import Techstack from './components/techstack/Techstack.jsx'
+
 import "./app.scss"
 
 function App() {
@@ -14,9 +17,9 @@ function App() {
       <div className="sections">
 
         <Home />
-        <About />
         <Projects />
-        <Contact />
+        <Techstack />
+        <About />
 
       </div>
     </div>

@@ -1,0 +1,83 @@
+.home{
+
+     background-color: #390918;
+     background-image: linear-gradient(rgba(50,0,30,0.58), rgba(50,0,30,0.5)), url('https://wallpaperaccess.com/full/322837.jpg');
+     background-repeat: no-repeat;
+     background-position: center center;
+     color: lightpink;
+
+}
+
+* {
+     text-align: center;
+}
+
+
+#name {
+
+     font-size: 5vh;
+     margin-top: 1%;
+
+}
+
+#selfphoto{
+
+
+     padding-top: 1%;
+     margin: auto;
+     justify-items: center;
+     align-items: center;
+     border-radius: 8px;
+
+}
+     
+
+#description {
+
+     z-index: 99;
+     font-size: 30px;
+     padding-top: 2.5%;
+
+}
+
+#contact {
+
+     z-index: 999;
+     text-align: center;
+     font-size: 21px;
+     margin-bottom: 1%;
+
+}
+
+
+#overlay{
+
+     background-image: url('/images/flowerbackground.jpeg');
+     background-repeat: no-repeat;
+     background-position: center center;
+     position: absolute;
+     height: 100vh;
+     width: 100vw;
+     z-index: 1;
+     background-color: black;
+     animation-name: fadeIn;
+     animation-duration: 2s;
+     animation-timing-function: ease-in;
+     animation-fill-mode: forwards;
+
+ }
+
+ @keyframes fadeIn {
+
+     from{
+         opacity: 1;
+         z-index: 999;
+     }
+     to{
+         opacity: 0;
+         z-index: -1;
+     }
+
+}
+
+
