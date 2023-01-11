@@ -14,7 +14,7 @@ function App() {
 
     <>
       <nav>
-        <ul>
+        <ul className="ul">
           <li>
             <Link to="/">Home</Link>
           </li>
