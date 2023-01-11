@@ -1,15 +1,17 @@
 import React from 'react'
+import Topbar from '../topbar/Topbar.jsx'
 import './Home.scss'
 import SelfPhoto from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/thomaspic.jpg'
 import FlowerBackground from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/flowerbackground.jpeg'
 
 export default function Home() {
   return (
-    <div className='home' id='home'>
 
-      <div id='overlay'>
-         {/* <img src={FlowerBackground} alt="Flower Wallpaper" /> */}
-      </div>
+  <>
+
+    <Topbar/>
+
+    <div className='home' id='home'>
 
       <div id='name'>
         <h2>Thomas A. Flowers, III.</h2>
@@ -37,5 +39,6 @@ export default function Home() {
       </div>
       
     </div>
+    </>
   )
 }

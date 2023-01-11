@@ -1,10 +1,15 @@
 import React from 'react'
 import "./About.scss"
 import AboutPhoto from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/aboutme-photo.jpeg'
-import OtherAboutPhoto from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/anotheraboutme.jpeg'
+import Topbar from '../topbar/Topbar.jsx'
 
 export default function Contact() {
   return (
+
+  <>
+
+    <Topbar />
+
     <div className="contact" id='contact'>
       <h2>About Thomas A. Flowers III:</h2>
       <br></br>
@@ -21,5 +26,8 @@ export default function Contact() {
       </div>
 
     </div>
+
+    </>
+    
   )
 }

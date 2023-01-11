@@ -4,9 +4,16 @@ import BurgundySequencerGIF from '/Users/melchior/VSCode_Projects/taflowers-port
 import NVPGIF from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/nostalgicvideopasture-video.gif'
 import PodCatsGIF from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/podcats-video.gif'
 import "./Projects.scss"
+import Topbar from '../topbar/Topbar.jsx'
+
 
 export default function Projects() {
   return (
+
+  <>
+
+    <Topbar />
+    
     <div className='projects' id='projects'>
       <div id='h1'><h1>Projects</h1></div>
       
@@ -78,5 +85,6 @@ export default function Projects() {
         </div>
       </div>
     </div>
+    </>
   )
 }

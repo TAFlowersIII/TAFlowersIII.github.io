@@ -1,5 +1,7 @@
 import React from 'react'
 import './Techstack.scss'
+import Topbar from '../topbar/Topbar.jsx'
+
 import JavascriptIcon from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/javascript-icon.png'
 import Python3Icon from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/python-icon.png'
 import SQLIcon from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/sql-icon.png'
@@ -13,6 +15,11 @@ import CSSIcon from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/ima
 
 export default function Works() {
   return (
+
+    <>
+
+    <Topbar />
+
     <div className='works' id='works'>
       <h1>Tech Stack:</h1>
 
@@ -67,5 +74,8 @@ export default function Works() {
       </div>
       
     </div>
+
+  </>
+
   )
 }
