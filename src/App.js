@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, Route, Routes } from "react-router-dom";
 
-import Topbar from './components/topbar/Topbar.jsx'
 import Home from "./components/home/Home.jsx"
 import About from './components/about/About.jsx'
 import Projects from './components/projects/Projects.jsx'
@@ -43,5 +42,7 @@ function App() {
 
   );
 }
+
+console.log("(C) 2023 Thomas A. Flowers III");
 
 export default App;

@@ -1,5 +1,6 @@
 import React from 'react'
 import Topbar from '../topbar/Topbar.jsx'
+import Bottombar from '../bottombar/Bottombar.jsx'
 import './Home.scss'
 import SelfPhoto from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/thomaspic.jpg'
 import FlowerBackground from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/flowerbackground.jpeg'
@@ -18,7 +19,7 @@ export default function Home() {
       </div>
 
       <div id="selfphoto">
-        <img src={SelfPhoto} alt="Thomas A Flowers The Third" height="44%" width="auto" />
+        <img src={SelfPhoto} alt="Thomas A Flowers The Third" height="50%" width="auto" />
       </div>
 
       <div id='description'>
@@ -39,6 +40,9 @@ export default function Home() {
       </div>
       
     </div>
+
+    <Bottombar />
+
     </>
   )
 }
