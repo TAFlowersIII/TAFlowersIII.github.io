@@ -28,9 +28,11 @@ export default function Home() {
 
       <div id='contact'>
         <h4>
-          <a href="https://github.com/TAFlowersIII">Github</a> | 
-          <a href="https://www.linkedin.com/in/taflowersiii/"> LinkedIn</a> | 
-          <a href="https://docs.google.com/document/d/e/2PACX-1vTrCIfIawVDU21fxa0gT5Dh_Xp53dofM8Mymv80TJPpAPxHuMw8B-80dapOLHh5BFjMvMnjyvZ7HIgu/pub"> Resume</a>
+          <a href="https://github.com/TAFlowersIII">Github</a>
+          <>  |  </>
+          <a href="https://www.linkedin.com/in/taflowersiii/">LinkedIn</a>
+          <>  |  </>
+          <a href="https://docs.google.com/document/d/e/2PACX-1vTrCIfIawVDU21fxa0gT5Dh_Xp53dofM8Mymv80TJPpAPxHuMw8B-80dapOLHh5BFjMvMnjyvZ7HIgu/pub">Resume</a>
         </h4>
       </div>
       
