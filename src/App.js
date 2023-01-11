@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes } from "react-router-dom";
+import { Link, Route, Routes } from "react-router-dom";
 
 import Topbar from './components/topbar/Topbar.jsx'
 import Home from "./components/home/Home.jsx"
@@ -11,19 +11,35 @@ import "./app.scss"
 
 function App() {
   return (
-    <div className="app">
 
-      <Topbar />
+    <>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/projects">Projects</Link>
+          </li>
+          <li>
+            <Link to="/techstack">Tech Stack</Link>
+          </li>
+          <li>
+            <Link to="/about">About</Link>
+          </li>
+        </ul>
+      </nav>
 
-      <div className="sections">
+    <Routes>
 
-        <Home />
-        <Projects />
-        <Techstack />
-        <About />
+      <Route path="/" element={<Home />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/techstack" element={<Techstack />} />
+      <Route path="/about" element={<About />} />
 
-      </div>
-    </div>
+    </Routes>
+    </>
+
   );
 }
 
