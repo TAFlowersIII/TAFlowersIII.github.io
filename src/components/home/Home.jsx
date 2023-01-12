@@ -19,7 +19,7 @@ function Home() {
       </div>
 
       <div id="selfphoto">
-        <img src={SelfPhoto} alt="Thomas A Flowers The Third" height="50%" width="auto" />
+        <img src={SelfPhoto} alt="Thomas A Flowers The Third" />
       </div>
 
       <div id='description'>
