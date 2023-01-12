@@ -10,7 +10,7 @@ function Home() {
 
   <>
 
-    <Topbar />
+    {/* <Topbar /> */}
 
     <div className='home' id='home'>
 
@@ -41,7 +41,7 @@ function Home() {
       
     </div>
 
-    <Bottombar />
+    {/* <Bottombar /> */}
 
     </>
   )

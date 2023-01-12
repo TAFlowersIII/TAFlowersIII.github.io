@@ -19,7 +19,7 @@ export default function Works() {
 
     <>
 
-    <Topbar />
+    {/* <Topbar /> */}
 
     <div className='works' id='works'>
       <h1>Tech Stack:</h1>
@@ -76,7 +76,7 @@ export default function Works() {
       
     </div>
 
-    <Bottombar />
+    {/* <Bottombar /> */}
 
   </>
 

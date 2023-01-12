@@ -9,7 +9,7 @@ export default function Contact() {
 
   <>
 
-    <Topbar />
+    {/* <Topbar /> */}
 
     <div className="contact" id='contact'>
       <h2>About Thomas A. Flowers III:</h2>
@@ -28,7 +28,7 @@ export default function Contact() {
 
     </div>
 
-    <Bottombar />
+    {/* <Bottombar /> */}
 
     </>
     

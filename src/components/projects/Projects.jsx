@@ -16,7 +16,7 @@ export default function Projects() {
 
   <>
 
-    <Topbar />
+    {/* <Topbar /> */}
     
     <div className='projects' id='projects'>
       <div id='header'><p>Projects</p></div>
@@ -88,7 +88,7 @@ export default function Projects() {
       </div>
     </div>
 
-    <Bottombar />
+    {/* <Bottombar /> */}
 
     </>
   )

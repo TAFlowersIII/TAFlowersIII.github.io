@@ -1,16 +1,18 @@
 import React, { Profiler } from "react";
-import { Link, Route, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
 import Home from "./components/home/Home.jsx"
 import About from './components/about/About.jsx'
 import Projects from './components/projects/Projects.jsx'
 import Techstack from './components/techstack/Techstack.jsx'
+import Topbar from './components/topbar/Topbar.jsx'
+import Bottombar from './components/bottombar/Bottombar.jsx'
 
 import "./app.scss"
 
-const logTimes = (id, phase, actualTime, baseTime, startTime, commitTime) => {
-  console.table ({id, phase, actualTime, baseTime, startTime, commitTime});
-};
+// const logTimes = (id, phase, actualTime, baseTime, startTime, commitTime) => {
+//   console.table ({id, phase, actualTime, baseTime, startTime, commitTime});
+// };
 
 function App() {
 
@@ -18,12 +20,11 @@ function App() {
 
     <>
 
-    {/* <Home />
-    <Projects />
-    <Techstack />
-    <About /> */}
+    <Topbar />
 
-    <Profiler id="app" onRender={logTimes} >
+    <>
+
+    {/* <Profiler id="app" onRender={logTimes} > */}
 
     <Routes>
 
@@ -34,7 +35,11 @@ function App() {
 
     </Routes>
 
-    </Profiler>
+    {/* </Profiler> */}
+
+    </>
+
+    <Bottombar />
 
     </>
 
