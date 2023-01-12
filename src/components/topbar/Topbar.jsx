@@ -1,10 +1,10 @@
-// import React from 'react'
+import React from 'react'
 import { createContext, useState } from 'react';
 import './Topbar.scss'
 
 export const ThemeContext = createContext(null);
 
-export default function Topbar() {
+function Topbar() {
   
   let [theme, setTheme] = useState('')
 
@@ -42,3 +42,5 @@ export default function Topbar() {
     </ThemeContext.Provider>
   );
   }
+
+export default React.memo(Topbar);

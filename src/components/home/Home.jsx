@@ -1,11 +1,11 @@
-// import React from 'react'
+import React from 'react'
 import Topbar from '../topbar/Topbar.jsx'
 import Bottombar from '../bottombar/Bottombar.jsx'
 import './Home.scss'
 import SelfPhoto from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/thomaspic.jpg'
 import FlowerBackground from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/flowerbackground.jpeg'
 
-export default function Home() {
+function Home() {
   return (
 
   <>
@@ -46,3 +46,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home;

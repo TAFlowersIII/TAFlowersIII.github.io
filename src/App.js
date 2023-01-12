@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Profiler } from "react";
 import { Link, Route, Routes } from "react-router-dom";
 
 import Home from "./components/home/Home.jsx"
@@ -8,25 +8,34 @@ import Techstack from './components/techstack/Techstack.jsx'
 
 import "./app.scss"
 
+const logTimes = (id, phase, actualTime, baseTime, startTime, commitTime) => {
+  console.table ({id, phase, actualTime, baseTime, startTime, commitTime});
+};
+
 function App() {
+
   return (
 
     <>
 
-    <Home />
+    {/* <Home />
     <Projects />
     <Techstack />
-    <About />
+    <About /> */}
 
+    <Profiler id="app" onRender={logTimes} >
 
-    {/* <Routes>
+    <Routes>
 
       <Route path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/techstack" element={<Techstack />} />
       <Route path="/about" element={<About />} />
 
-    </Routes> */}
+    </Routes>
+
+    </Profiler>
+
     </>
 
   );
@@ -34,4 +43,4 @@ function App() {
 
 console.log("(C) 2023 Thomas A. Flowers III");
 
-export default App;
+export default React.memo(App);
