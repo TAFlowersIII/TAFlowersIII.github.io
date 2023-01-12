@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import Topbar from '../topbar/Topbar.jsx'
 import Bottombar from '../bottombar/Bottombar.jsx'
 import './Home.scss'
@@ -10,7 +10,7 @@ export default function Home() {
 
   <>
 
-    <Topbar/>
+    <Topbar />
 
     <div className='home' id='home'>
 

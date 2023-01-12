@@ -13,31 +13,20 @@ function App() {
 
     <>
 
-      <nav>
-        <ul className="ul">
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/projects">Projects</Link>
-          </li>
-          <li>
-            <Link to="/techstack">Tech Stack</Link>
-          </li>
-          <li>
-            <Link to="/about">About</Link>
-          </li>
-        </ul>
-      </nav>
+    <Home />
+    <Projects />
+    <Techstack />
+    <About />
 
-    <Routes>
+
+    {/* <Routes>
 
       <Route path="/" element={<Home />} />
       <Route path="/projects" element={<Projects />} />
       <Route path="/techstack" element={<Techstack />} />
       <Route path="/about" element={<About />} />
 
-    </Routes>
+    </Routes> */}
     </>
 
   );
