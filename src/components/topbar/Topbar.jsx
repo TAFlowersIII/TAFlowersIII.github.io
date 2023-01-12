@@ -43,4 +43,4 @@ function Topbar() {
   );
   }
 
-export default React.memo(Topbar);
+export default Topbar;

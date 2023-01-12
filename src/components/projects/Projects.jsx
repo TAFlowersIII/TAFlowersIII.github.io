@@ -19,7 +19,7 @@ export default function Projects() {
     <Topbar />
     
     <div className='projects' id='projects'>
-      <div id='h1'><h1>Projects</h1></div>
+      <div id='header'><p>Projects</p></div>
       
       <div className='card1'>
         <br></br>
@@ -29,11 +29,9 @@ export default function Projects() {
           <h2>"Simon Says Sampler"</h2>
           <h3>HTML, CSS, Vanilla JS</h3>
           <br></br>
-          <h3>A web application drum machine modeled in the style of an AKAI MPC. Use your keyboard to play a beat, or try a "Simon Says" style memory game.</h3>
+          <h3>A web application drum machine modeled in the style of an AKAI MPC. Use your keyboard to play a beat, or try a "Simon Says"-esque rhythmic memory game.</h3>
           <br></br>
-          <a href='https://github.com/KhakiSuitValentino/Unit1-Project1'>View On Github</a>
-          <br></br>
-          <a href='https://taflowersiii.github.io/Unit1-Project1/'>View Deployment</a>
+          <a href='https://github.com/KhakiSuitValentino/Unit1-Project1'>View On Github</a> <span> | </span> <a href='https://taflowersiii.github.io/Unit1-Project1/'>View Deployment</a>
         </div>
 
       </div>
@@ -50,7 +48,7 @@ export default function Projects() {
           <br></br>
           <br></br>
           <a href='https://github.com/KhakiSuitValentino/NostalgicVideoPasture'>View on Github</a>
-          <br></br>
+          <span> | </span>
           <a href='https://www.videotape-pasture.fly.dev/'>View Deployment</a>
           
         </div>
@@ -68,7 +66,7 @@ export default function Projects() {
           <h3>"Pod Cats" allows users to call The Cat API to find, save, and share cute cat images. This was made in collaboration with other students at General Assembly Immersive Bootcamp.</h3>
           <br></br>
           <a href='https://github.com/syorn96/pod-cats'>View on Github</a>
-          <br></br>
+          <span> | </span>
           <a href='https://silver-beignet-215e62.netlify.app/cats'>View Deployment</a>
         </div>
 
@@ -84,7 +82,7 @@ export default function Projects() {
           <h3>A musical step sequencer in the style of Digital Audio Workstation programs such as FL Studio. Users can create their own rhythms and instrumentals.</h3>
           <br></br>
           <a href='https://github.com/KhakiSuitValentino/BurgundySequencer'>View on Github</a>
-          <br></br>
+          <span> | </span>
           <a href='https://silver-beignet-215e62.netlify.app/cats'>View Deployment</a>
         </div>
       </div>

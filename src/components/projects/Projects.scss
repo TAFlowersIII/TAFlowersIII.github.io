@@ -6,36 +6,57 @@ body, html {
 .projects{
      width: 100vw;
      height: 100vh;
-     background-image: linear-gradient(147deg,rgba(30,0,40,0.58), rgba(30,8,50,0.5)), url('https://wallpaperaccess.com/full/322837.jpg');
-     background-color: #0F011A;
      background-repeat: no-repeat;
      background-position: center center;
 
+     background-image: linear-gradient(147deg,rgba(30,0,40,0.58), rgba(30,8,50,0.5)), url('https://wallpaperaccess.com/full/322837.jpg');
+     background-color: #0F011A;
      color: #ffb9ea;
+
+
      display: grid;
-     grid-template-columns: 1fr 1fr;
-     grid-template-rows: 1fr 3fr 3fr;
+     grid-template-columns: 1fr 4fr 4fr 1fr;
+     grid-template-rows: 2fr 5fr 5fr 1fr;
+     row-gap: 5%;
+     column-gap: 3%;
      text-align: center;
 
 }
 
-#h1 {
-     grid-column-end: span 2;
+#header {
+     grid-column-end: span 4;
+     margin-top: 4%;
      text-align: center;
-     font-size: 35px;
-     margin-top: 2%;
+
+     font-size: 4.5vh;
+     letter-spacing: 0.3vw;
+
+     font-style: italic;
+     color: lightpink;
+     text-shadow: 15px 15px 5px rgba(80, 0, 80, 0.65)
 }
 
 .card1 {
-     box-shadow: 0 4px 8px 0 rgba(125, 22, 22, 0.5);
+     grid-column-start: 2;
+     grid-row-start: 2;
+
+     border-radius: 4%;
+     background-color: rgba(100, 5, 45, 0.16);
+     box-shadow: 0 0 15px rgba(250, 150, 190, 0.3);
      transition: 1s;
+     opacity: 87%;
+
+     h2 {
+          text-decoration: underline;
+          color: lightpink;  
+     }
 
      a:link {
-          color: #d9acf6;
+          color: #ffb9ea;
      }
 
      a:visited {
-          color: #d9acf6;
+          color: #ffb9ea;
      }
 
      a:hover {
@@ -44,7 +65,10 @@ body, html {
 }
 
 .card1:hover {
-     box-shadow: 0 10px 18px 0 rgba(121, 15, 15, 0.8)
+
+     background-color: rgba(100, 5, 45, 0.46);
+     box-shadow: 0 0 15px rgba(250, 150, 190, 0.6);
+     opacity: 100%;
 }
 
 .card1-container {
@@ -53,15 +77,26 @@ body, html {
 }
 
 .card2 {
-     box-shadow: 0 4px 8px 0 rgba(125, 22, 22, 0.5);
+     grid-column-start: 3;
+     grid-row-start: 2;
+
+     border-radius: 4%;
+     background-color: rgba(45, 5, 90, 0.16);
+     box-shadow: 0 0 15px rgba(200, 180, 225, 0.3);
      transition: 1s;
+     opacity: 87%;
+
+     h2 {
+          text-decoration: underline;
+          color: lightpink;  
+     }
 
      a:link {
-          color: #d9acf6;
+          color: #ffb9ea;
      }
 
      a:visited {
-          color: #d9acf6;
+          color: #ffb9ea;
      }
 
      a:hover {
@@ -70,7 +105,10 @@ body, html {
 }
 
 .card2:hover {
-     box-shadow: 0 10px 18px 0 rgba(121, 15, 15, 0.8)
+
+     background-color: rgba(45, 5, 90, 0.46);
+     box-shadow: 0 0 15px rgba(200, 180, 225, 0.6);
+     opacity: 100%;
 }
 
 .card2-container {
@@ -78,15 +116,26 @@ body, html {
 }
 
 .card3 {
-     box-shadow: 0 4px 8px 0 rgba(125, 22, 22, 0.5);
+     grid-column-start: 2;
+     grid-row-start: 3;
+
+     border-radius: 4%;
+     background-color: rgba(89, 55, 100, 0.16);
+     box-shadow: 0 0 15px 0 rgba(199, 165, 225, 0.3);
      transition: 1s;
+     opacity: 87%;
+
+     h2 {
+          text-decoration: underline;
+          color: lightpink;  
+     }
 
      a:link {
-          color: #d9acf6;
+          color: #ffb9ea;
      }
 
      a:visited {
-          color: #d9acf6;
+          color: #ffb9ea;
      }
 
      a:hover {
@@ -95,7 +144,9 @@ body, html {
 }
 
 .card3:hover {
-     box-shadow: 0 10px 18px 0 rgba(121, 15, 15, 0.8)
+     background-color: rgba(89, 55, 100, 0.46);
+     box-shadow: 0 0 15px rgba(199, 165, 225, 0.6);
+     opacity: 100%;
 }
 
 .card3-container {
@@ -103,15 +154,26 @@ body, html {
 }
 
 .card4 {
-     box-shadow: 0 4px 8px 0 rgba(125, 22, 22, 0.5);
+     grid-column-start: 3;
+     grid-row-start: 3;
+     
+     border-radius: 4%;
+     background-color: rgba(80, 0, 50, 0.16);
+     box-shadow: 0 0 15px rgba(255, 125, 125, 0.3);
      transition: 1s;
+     opacity: 87%;
+
+     h2 {
+          text-decoration: underline;
+          color: lightpink;  
+     }
 
      a:link {
-          color: #d9acf6;
+          color: #ffb9ea;
      }
 
      a:visited {
-          color: #d9acf6;
+          color: #ffb9ea;
      }
 
      a:hover {
@@ -120,7 +182,9 @@ body, html {
 }
 
 .card4:hover {
-     box-shadow: 0 10px 18px 0 rgba(121, 15, 15, 0.8)
+     background-color: rgba(80, 0, 50, 0.46);
+     box-shadow: 0 0 15px rgba(255, 125, 125, 0.6);
+     opacity: 100%;
 }
 
 .card4-container {
