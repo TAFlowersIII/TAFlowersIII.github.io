@@ -3,24 +3,100 @@ body, html {
      overflow-y: hidden;
  }
 
-.works{
+.stack{
      width: 100vw;
      height: 100vh;
-     background: linear-gradient(35deg,rgba(0,20,64,0.52), rgba(35,0,65,0.58)), url('https://wallpaperaccess.com/full/322837.jpg');
+     background: linear-gradient(35deg,rgba(0,50,64,0.52), rgba(35,0,65,0.58)), url('https://wallpaperaccess.com/full/322837.jpg');
      background-color: #0a0217;
      background-repeat: no-repeat;
      background-position: center center;
 
-     color: #e1c3f5;
+     color: #ffb0f6;
      display: grid;
      grid-template-columns: 1fr 1fr;
-     grid-template-rows: 4fr 3fr 3fr 3fr 3fr 3fr;
+     grid-template-rows: 5% 15% 15% 15% 15% 15% 15% 5%;
      text-align: center;
      font-size: 3vh;
+
+     img {
+          filter: grayscale(80%);
+          opacity: 0.85;
+     }
 }
 
 h1 {
+     grid-row: 2;
      grid-column-end: span 2;
-     font-size: 4vh;
-     text-align: center;
+     place-self: center;
+
+     font-size: 5vh;
+     letter-spacing: 0.3vw;
+     font-style: italic;
+     text-decoration: underline;
 }
+
+.javascript {
+     grid-row: 3;
+     grid-column: 1;
+     place-self: center;
+}
+
+.python {
+     grid-row: 3;
+     grid-column: 2;
+     place-self: center;
+}
+
+.sql {
+     grid-row: 4;
+     grid-column: 1;
+     place-self: center;
+
+     img {
+          background-color: rgb(255, 174, 244)
+     }
+}
+
+.mongodb {
+     grid-row: 4;
+     grid-column: 2;
+     place-self: center;
+}
+
+.express {
+     grid-row: 5;
+     grid-column: 1;
+     place-self: center;
+}
+
+.nodejs {
+     grid-row: 5;
+     grid-column: 2;
+     place-self: center;
+}
+
+.react {
+     grid-row: 6;
+     grid-column: 1;
+     place-self: center;
+}
+
+.django {
+     grid-row: 6;
+     grid-column: 2;
+     place-self: center;
+}
+
+.htmlicon {
+     grid-row: 7;
+     grid-column: 1;
+     place-self: center;
+}
+
+.cssicon {
+     grid-row: 7;
+     grid-column: 2;
+     place-self: center;
+}
+
+
