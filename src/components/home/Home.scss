@@ -1,7 +1,11 @@
+body, html { 
+     overflow-x: hidden; 
+     overflow-y: hidden;
+ }
+
 .home{
      width: 100vw;
      height: 100vh;
-     overflow: hidden;
      background-color: #390918;
      background-image: linear-gradient(rgba(50,0,30,0.58), rgba(50,0,30,0.5)), url('https://wallpaperaccess.com/full/322837.jpg');
      background-repeat: no-repeat;

@@ -1,10 +1,14 @@
 import React from 'react'
+
+import "./Projects.scss"
+import Topbar from '../topbar/Topbar.jsx'
+import Bottombar from '../bottombar/Bottombar.jsx'
+
 import SimonSaysGIF from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/simonsays-video.gif'
 import BurgundySequencerGIF from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/burgundy-sequencer-video.gif'
 import NVPGIF from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/nostalgicvideopasture-video.gif'
 import PodCatsGIF from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/podcats-video.gif'
-import "./Projects.scss"
-import Topbar from '../topbar/Topbar.jsx'
+
 
 
 export default function Projects() {
@@ -85,6 +89,9 @@ export default function Projects() {
         </div>
       </div>
     </div>
+
+    <Bottombar />
+
     </>
   )
 }
