@@ -1,7 +1,8 @@
 import React from 'react'
-import "./About.scss"
 import AboutPhoto from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/aboutme-photo.jpeg'
 import Topbar from '../topbar/Topbar.jsx'
+import Bottombar from '../bottombar/Bottombar.jsx'
+import "./About.scss"
 
 export default function Contact() {
   return (
@@ -26,6 +27,8 @@ export default function Contact() {
       </div>
 
     </div>
+
+    <Bottombar />
 
     </>
     

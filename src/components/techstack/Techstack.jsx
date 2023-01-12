@@ -1,6 +1,7 @@
 import React from 'react'
 import './Techstack.scss'
 import Topbar from '../topbar/Topbar.jsx'
+import Bottombar from '../bottombar/Bottombar.jsx'
 
 import JavascriptIcon from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/javascript-icon.png'
 import Python3Icon from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/python-icon.png'
@@ -74,6 +75,8 @@ export default function Works() {
       </div>
       
     </div>
+
+    <Bottombar />
 
   </>
 

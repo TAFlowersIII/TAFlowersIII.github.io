@@ -1,6 +1,17 @@
+body, html { 
+     overflow-x: hidden; 
+     overflow-y: hidden;
+ }
+
 .contact{
-     background: linear-gradient(rgba(0,0,90,0.5), rgba(0,0,90,0.58)), url('https://wallpaperaccess.com/full/322837.jpg');
-     color: #e1c3f5;
+     width: 100vw;
+     height: 100vh;
+     background: linear-gradient(rgba(0, 60, 104, 0.42), rgba(1, 37, 91, 0.48)), url('https://wallpaperaccess.com/full/322837.jpg');
+     background-color: #01150D;
+     background-repeat: no-repeat;
+     background-position: center center;
+
+     color: #f8ffe9;
      text-align: center;
      margin: auto;
 }
