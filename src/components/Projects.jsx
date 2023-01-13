@@ -14,26 +14,34 @@ export default function Projects() {
 
   <>
     
-    {/* ****  Card 1:  **** */}
-
     <div className={styles.projects}>
 
       <div id={styles.header}><p>Projects:</p></div>
       
+
+    {/* ----- CARD 1 ----- */}
+
       <div className={styles.card1}>
-        <br></br>
-        <img src={SimonSaysGIF} alt="Simon Says Memory Game And Drum Machine" />
 
         <div className={styles.card1container}>
-          <h2>"Simon Says Sampler"</h2>
-          <h3>HTML, CSS, JavaScript</h3>
-          <br></br>
-          <h4>A web application drum machine modeled in the style of an AKAI MPC. Use your keyboard to play a beat, or try a "Simon Says"-esque rhythmic memory game.</h4>
-          <br></br>
-          <a href='https://github.com/KhakiSuitValentino/Unit1-Project1'>View On Github</a> <span> | </span> <a href='https://taflowersiii.github.io/Unit1-Project1/'>View Deployment</a>
+
+          <img id={styles.card1img} src={SimonSaysGIF} alt="Simon Says Memory Game And Drum Machine" />
+
+          <h2 id={styles.card1title}>"Simon Says Sampler"</h2>
+
+          <h3 id={styles.card1stack}>HTML, CSS, JavaScript</h3>
+
+          <h4 id={styles.card1description}>A web application drum machine modeled in the style of an AKAI MPC. Use your keyboard to play a beat, or try a "Simon Says"-esque rhythmic memory game.</h4>
+
+          <div id={styles.card1links}>
+            <a href='https://github.com/KhakiSuitValentino/Unit1-Project1'>View On Github</a> <span> | </span> <a href='https://taflowersiii.github.io/Unit1-Project1/'>View Deployment</a>
+          </div>
         </div>
 
       </div>
+
+
+      {/* ----- CARD 2 ----- */}
 
       <div className={styles.card2}>
 
@@ -41,11 +49,11 @@ export default function Projects() {
 
           <img id={styles.card2img} src={NVPGIF} alt="Nostalgic Video Pasture"/>
 
-          <h2 id={styles.card2h2}>"Nostalgic Video Pasture"</h2>
+          <h2 id={styles.card2title}>"Nostalgic Video Pasture"</h2>
 
-          <h3 id={styles.card2h3}>HTML, CSS, JS, EJS, PostgresQL, Express</h3>
+          <h3 id={styles.card2stack}>HTML, CSS, JS, EJS, PostgresQL, Express</h3>
 
-          <h4 id={styles.card2h4}>A community collection of nostalgic videos from Youtube. Users can share their favorite Youtube videos that invoke a sense of nostalgia.</h4>
+          <h4 id={styles.card2description}>A community collection of nostalgic videos from Youtube. Users can share their favorite Youtube videos that invoke a sense of nostalgia.</h4>
 
           <div id={styles.card2links}>
             <a href='https://github.com/KhakiSuitValentino/NostalgicVideoPasture'>View on Github</a>
@@ -57,37 +65,55 @@ export default function Projects() {
 
       </div>
 
+    {/* ------ CARD 3: ------ */}
+
       <div className={styles.card3}>
-        <br></br>
-        <img src={PodCatsGIF} alt="Pod Cats" width="140" height="75"/>
 
         <div className={styles.card3container}>
-          <h2>"Pod Cats"</h2>
-          <h3>React, Axios, Tailwind, MongoDB, Node, Express, Rowdy</h3>
-          <br></br>
-          <h3>"Pod Cats" allows users to call The Cat API to find, save, and share cute cat images. This was made in collaboration with other students at General Assembly Immersive Bootcamp.</h3>
-          <br></br>
-          <a href='https://github.com/syorn96/pod-cats'>View on Github</a>
-          <span> | </span>
-          <a href='https://silver-beignet-215e62.netlify.app/cats'>View Deployment</a>
+
+          <img id={styles.card3img} src={PodCatsGIF} alt="Pod Cats" />
+
+          <h2 id={styles.card3title}>"Pod Cats"</h2>
+
+          <h3 id={styles.card3stack}>React, Axios, Tailwind, MongoDB, Node, Express, Rowdy</h3>
+
+          <h4 id={styles.card3description}>"Pod Cats" allows users to call The Cat API to find, save, and share cute cat images. Made in collaboration with other students at General Assembly Immersive Bootcamp.</h4>
+          
+          <div id={styles.card3links}>
+            <a href='https://github.com/syorn96/pod-cats'>View on Github</a>
+              <span> | </span>
+            <a href='https://silver-beignet-215e62.netlify.app/cats'>View Deployment</a>
+          </div>
         </div>
 
       </div>
       
+
+    {/* ------- CARD 4: ------- */}
+
       <div className={styles.card4}>
-        <br></br>
-      <img src={BurgundySequencerGIF} alt="Burgundy Sequencer Music Program" width="140" height="75"/>
+        
+      
         <div className={styles.card4container}>
-          <h2>"Burgundy Sequencer"</h2>
-          <h3>Python, PyGame</h3>
-          <br></br>
-          <h3>A musical step sequencer in the style of Digital Audio Workstation programs such as FL Studio. Users can create their own rhythms and instrumentals.</h3>
-          <br></br>
-          <a href='https://github.com/KhakiSuitValentino/BurgundySequencer'>View on Github</a>
-          <span> | </span>
-          <a href='https://silver-beignet-215e62.netlify.app/cats'>View Deployment</a>
+
+          <img id={styles.card4img} src={BurgundySequencerGIF} alt="Burgundy Sequencer Music Program" />
+
+          <h2 id={styles.card4title}>"Burgundy Sequencer"</h2>
+
+          <h3 id={styles.card4stack}>Python, PyGame</h3>
+          
+          <h4 id={styles.card4description}>A musical step sequencer in the style of Digital Audio Workstation programs such as FL Studio. Users can create their own rhythms and instrumentals.</h4>
+          
+          <div id={styles.card4links}>
+            <a href='https://github.com/KhakiSuitValentino/BurgundySequencer'>View on Github</a>
+              <span> | </span>
+            <a href='https://silver-beignet-215e62.netlify.app/cats'>View Deployment</a>
+          </div>
+
         </div>
+
       </div>
+
     </div>
 
     </>
