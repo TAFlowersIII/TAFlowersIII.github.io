@@ -1,12 +1,12 @@
 import React, { Profiler } from "react";
 import { Route, Routes } from "react-router-dom";
 
-import Home from "./components/home/Home.jsx"
-import About from './components/about/About.jsx'
-import Projects from './components/projects/Projects.jsx'
-import Techstack from './components/techstack/Techstack.jsx'
-import Topbar from './components/topbar/Topbar.jsx'
-import Bottombar from './components/bottombar/Bottombar.jsx'
+import Home from "./components/Home.jsx"
+import About from './components/About.jsx'
+import Projects from './components/Projects.jsx'
+import Techstack from './components/Techstack.jsx'
+import Topbar from './components/Topbar.jsx'
+import Bottombar from './components/Bottombar.jsx'
 
 import "./styles/globals.scss"
 

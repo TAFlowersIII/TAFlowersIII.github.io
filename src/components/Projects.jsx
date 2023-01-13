@@ -1,6 +1,6 @@
 // import React from 'react'
 
-import styles from "../../styles/Projects.module.scss"
+import styles from "../styles/Projects.module.scss"
 
 import SimonSaysGIF from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/simonsays-video.gif'
 import BurgundySequencerGIF from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/burgundy-sequencer-video.gif'

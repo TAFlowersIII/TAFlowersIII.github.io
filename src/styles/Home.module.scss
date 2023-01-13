@@ -11,11 +11,11 @@ body, html {
      background-position: center center;
 
      display: grid;
-     grid-template-rows: 5% 14% 56% 10% 10% 5%;
+     grid-template-rows: 5% 12% 58% 10% 10% 5%;
 
      background-color: #390918;
-     background-image: linear-gradient(52deg,rgba(50,0,30,0.58), rgba(70,0,50,0.5)), url('https://wallpaperaccess.com/full/322837.jpg');
-     color: lightpink;
+     background-image: linear-gradient(52deg,rgba(50,0,30,0.58), rgba(57,9,25,0.5)), url('https://wallpaperaccess.com/full/322837.jpg');
+     color: rgb(255, 196, 205);
 
 }
 
@@ -23,7 +23,7 @@ body, html {
 #name {
 
      grid-row: 2;
-     font-size: 5vh;
+     font-size: 6.8vh;
      place-self: center;
 
 }
@@ -31,11 +31,17 @@ body, html {
 #selfphoto{
 
      grid-row: 3;
-     place-self: center;
-
+     text-align: center;
+     
      img {
-          width: 92%;
-          height: auto;
+
+          width: 100%;
+          max-width: 750px;
+          height: 100%;
+          max-height: 504px;
+          object-fit: contain;
+          align-self: center;
+     
      }
 
 }

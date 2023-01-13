@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from '../../styles/Techstack.module.scss'
+import styles from '../styles/Techstack.module.scss'
 
 import JavascriptIcon from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/javascript-icon.png'
 import Python3Icon from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/python-icon.png'
