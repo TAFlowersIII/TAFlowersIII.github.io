@@ -1,8 +1,6 @@
 // import React from 'react'
 
-import "./Projects.scss"
-import Topbar from '../topbar/Topbar.jsx'
-import Bottombar from '../bottombar/Bottombar.jsx'
+import styles from "../../styles/Projects.module.scss"
 
 import SimonSaysGIF from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/simonsays-video.gif'
 import BurgundySequencerGIF from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/burgundy-sequencer-video.gif'
@@ -15,17 +13,15 @@ export default function Projects() {
   return (
 
   <>
-
-    {/* <Topbar /> */}
     
-    <div className='projects' id='projects'>
-      <div id='header'><p>Projects</p></div>
+    <div className={styles.projects}>
+      <div id={styles.header}><p>Projects</p></div>
       
-      <div className='card1'>
+      <div className={styles.card1}>
         <br></br>
         <img src={SimonSaysGIF} alt="Simon Says Memory Game And Drum Machine" width="140" height="75"/>
 
-        <div className='card1-container'>
+        <div className={styles.card1container}>
           <h2>"Simon Says Sampler"</h2>
           <h3>HTML, CSS, Vanilla JS</h3>
           <br></br>
@@ -36,11 +32,11 @@ export default function Projects() {
 
       </div>
 
-      <div className='card2'>
+      <div className={styles.card2}>
         <br></br>
         <img src={NVPGIF} alt="Nostalgic Video Pasture" width="140" height="75"/>
 
-        <div className='card2-container'>
+        <div className={styles.card2container}>
           <h2>"Videotape Pasture"</h2>
           <h3>HTML, CSS, JS, EJS, PostgresQL, Express</h3>
           <br></br>
@@ -55,11 +51,11 @@ export default function Projects() {
 
       </div>
 
-      <div className='card3'>
+      <div className={styles.card3}>
         <br></br>
         <img src={PodCatsGIF} alt="Pod Cats" width="140" height="75"/>
 
-        <div className='card3-container'>
+        <div className={styles.card3container}>
           <h2>"Pod Cats"</h2>
           <h3>React, Axios, Tailwind, MongoDB, Node, Express, Rowdy</h3>
           <br></br>
@@ -72,10 +68,10 @@ export default function Projects() {
 
       </div>
       
-      <div className='card4'>
+      <div className={styles.card4}>
         <br></br>
       <img src={BurgundySequencerGIF} alt="Burgundy Sequencer Music Program" width="140" height="75"/>
-        <div className='card4-container'>
+        <div className={styles.card4container}>
           <h2>"Burgundy Sequencer"</h2>
           <h3>Python, PyGame</h3>
           <br></br>
@@ -87,8 +83,6 @@ export default function Projects() {
         </div>
       </div>
     </div>
-
-    {/* <Bottombar /> */}
 
     </>
   )

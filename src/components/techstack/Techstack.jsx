@@ -1,5 +1,5 @@
 import React from 'react'
-import './Techstack.scss'
+import styles from '../../styles/Techstack.module.scss'
 
 import JavascriptIcon from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/javascript-icon.png'
 import Python3Icon from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/python-icon.png'
@@ -17,55 +17,55 @@ export default function Works() {
 
     <>
 
-    <div className='stack'>
+    <div className={styles.stack}>
       <h1>Tech Stack:</h1>
 
-      <div className='javascript'>
+      <div className={styles.javascript}>
         <img src={JavascriptIcon} alt="Javascript" width='60' height='60' />
         <h3>Javascript</h3>
       </div>
 
-      <div className='python'>
+      <div className={styles.python}>
         <img src={Python3Icon} alt="Python3" width='60' height='60' />
         <h3>Python3</h3>
       </div>
       
-      <div className='sql'>
+      <div className={styles.sql}>
         <img src={SQLIcon} alt="SQL also known as Sequel" width='60' height='60' />
         <h3>PostgreSQL</h3>
       </div>
       
-      <div className='mongodb'>
+      <div className={styles.mongodb}>
         <img src={MongoDBIcon} alt="Mongo DB" width='60' height='60' />
         <h3>MongoDB</h3>
       </div>
       
-      <div className='express'>
+      <div className={styles.express}>
         <img src={ExpressIcon} alt="Express" width='60' height='60' />
         <h3>Express.JS</h3>
       </div>
       
-      <div className='nodejs'>
+      <div className={styles.nodejs}>
         <img src={NodeJSIcon} alt="Node JS" width='60' height='60' />
         <h3>Node.JS</h3>
       </div>
       
-      <div className='react'>
+      <div className={styles.react}>
         <img src={ReactIcon} alt="React" width='60' height='60' />
         <h3>React</h3>
       </div>
       
-      <div className='django'>
+      <div className={styles.django}>
         <img src={DjangoIcon} alt="Django" width='60' height='60' />
         <h3>Django</h3>
       </div>
       
-      <div className='htmlicon'>
+      <div className={styles.htmlicon}>
         <img src={HTMLIcon} alt="HTML5" width='60' height='60' />
         <h3>HTML</h3>
       </div>
       
-      <div className='cssicon'>
+      <div className={styles.cssicon}>
         <img src={CSSIcon} alt="CSS3" width='60' height='60' />
         <h3>CSS/Tailwind</h3>
       </div>

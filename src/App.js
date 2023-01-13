@@ -8,7 +8,7 @@ import Techstack from './components/techstack/Techstack.jsx'
 import Topbar from './components/topbar/Topbar.jsx'
 import Bottombar from './components/bottombar/Bottombar.jsx'
 
-import "./app.scss"
+import "./styles/globals.scss"
 
 // const logTimes = (id, phase, actualTime, baseTime, startTime, commitTime) => {
 //   console.table ({id, phase, actualTime, baseTime, startTime, commitTime});
@@ -24,18 +24,22 @@ function App() {
 
     <>
 
-    {/* <Profiler id="app" onRender={logTimes} > */}
-
     <Routes>
 
+      <>
       <Route path="/" element={<Home />} />
+      </>
+      <>
       <Route path="/projects" element={<Projects />} />
+      </>
+      <>
       <Route path="/techstack" element={<Techstack />} />
+      </>
+      <>
       <Route path="/about" element={<About />} />
+      </>
 
     </Routes>
-
-    {/* </Profiler> */}
 
     </>
 
@@ -48,4 +52,4 @@ function App() {
 
 console.log("(C) 2023 Thomas A. Flowers III");
 
-export default React.memo(App);
+export default App;

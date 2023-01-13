@@ -1,7 +1,5 @@
 import React from 'react'
-import Topbar from '../topbar/Topbar.jsx'
-import Bottombar from '../bottombar/Bottombar.jsx'
-import './Home.scss'
+import styles from '../../styles/Home.module.scss'
 import SelfPhoto from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/thomaspic.jpg'
 import FlowerBackground from '/Users/melchior/VSCode_Projects/taflowers-portfolio/src/images/flowerbackground.jpeg'
 
@@ -10,26 +8,24 @@ function Home() {
 
   <>
 
-    {/* <Topbar /> */}
+    <div className={styles.home}>
 
-    <div className='home' id='home'>
-
-      <div id='name'>
+      <div id={styles.name}>
         <h2>Thomas A. Flowers, III.</h2>
       </div>
 
-      <div id="selfphoto">
+      <div id={styles.selfphoto}>
         <img src={SelfPhoto} alt="Thomas A Flowers The Third" />
       </div>
 
-      <div id='description'>
+      <div id={styles.description}>
         <h3>Front-End Developer, Software Engineer, Film Photographer, Music Producer.</h3>
       </div>
 
     <br></br>
     <br></br>
 
-      <div id='contact'>
+      <div id={styles.contact}>
         <h4>
           <a href="https://github.com/TAFlowersIII">Github</a>
           <>  |  </>
@@ -40,8 +36,6 @@ function Home() {
       </div>
       
     </div>
-
-    {/* <Bottombar /> */}
 
     </>
   )

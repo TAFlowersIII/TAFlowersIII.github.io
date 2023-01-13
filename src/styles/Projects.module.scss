@@ -15,18 +15,19 @@ body, html {
 
 
      display: grid;
-     grid-template-columns: 1fr 4fr 4fr 1fr;
-     grid-template-rows: 2fr 5fr 5fr 1fr;
-     row-gap: 5%;
-     column-gap: 3%;
+     grid-template-columns: 7% 40% 40% 7%;
+     grid-template-rows: 5% 7% 36% 36% 7%;
+     row-gap: 2%;
+     column-gap: 2%;
      text-align: center;
 
 }
 
 #header {
-     grid-column-end: span 4;
-     margin-top: 4%;
-     text-align: center;
+     grid-row: 2;
+     grid-column-start: 2;
+     grid-column-end: 4;
+     place-self: center;
 
      font-size: 5vh;
      letter-spacing: 0.3vw;
@@ -38,7 +39,7 @@ body, html {
 
 .card1 {
      grid-column-start: 2;
-     grid-row-start: 2;
+     grid-row-start: 3;
 
      border-radius: 4%;
      background-color: rgba(100, 5, 45, 0.16);
@@ -71,14 +72,14 @@ body, html {
      opacity: 100%;
 }
 
-.card1-container {
+.card1container {
      padding: 2% 2% 2% 2%;
 
 }
 
 .card2 {
      grid-column-start: 3;
-     grid-row-start: 2;
+     grid-row-start: 3;
 
      border-radius: 4%;
      background-color: rgba(45, 5, 90, 0.16);
@@ -111,13 +112,13 @@ body, html {
      opacity: 100%;
 }
 
-.card2-container {
+.card2container {
      padding: 2% 2% 2% 2%;
 }
 
 .card3 {
      grid-column-start: 2;
-     grid-row-start: 3;
+     grid-row-start: 4;
 
      border-radius: 4%;
      background-color: rgba(89, 55, 100, 0.16);
@@ -149,13 +150,13 @@ body, html {
      opacity: 100%;
 }
 
-.card3-container {
+.card3container {
      padding: 2% 2% 2% 2%;
 }
 
 .card4 {
      grid-column-start: 3;
-     grid-row-start: 3;
+     grid-row-start: 4;
      
      border-radius: 4%;
      background-color: rgba(80, 0, 50, 0.16);
@@ -187,6 +188,6 @@ body, html {
      opacity: 100%;
 }
 
-.card4-container {
+.card4container {
      padding: 2% 2% 2% 2%;
 }
