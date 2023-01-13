@@ -11,7 +11,7 @@ body, html {
      background-position: center center;
 
      display: grid;
-     grid-template-rows: 5% 12% 58% 10% 10% 5%;
+     grid-template-rows: 5% 12% minmax(auto, 58%) 10% 10% 5%;
 
      background-color: #390918;
      background-image: linear-gradient(52deg,rgba(50,0,30,0.58), rgba(57,9,25,0.5)), url('https://wallpaperaccess.com/full/322837.jpg');
@@ -30,7 +30,8 @@ body, html {
 
 #selfphoto{
 
-     grid-row: 3;
+     grid-row-start: 3;
+     grid-row-end: 4;
      text-align: center;
      
      img {
@@ -40,7 +41,6 @@ body, html {
           height: 100%;
           max-height: 504px;
           object-fit: contain;
-          align-self: center;
      
      }
 

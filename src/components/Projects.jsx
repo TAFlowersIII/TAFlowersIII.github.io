@@ -14,18 +14,21 @@ export default function Projects() {
 
   <>
     
+    {/* ****  Card 1:  **** */}
+
     <div className={styles.projects}>
-      <div id={styles.header}><p>Projects</p></div>
+
+      <div id={styles.header}><p>Projects:</p></div>
       
       <div className={styles.card1}>
         <br></br>
-        <img src={SimonSaysGIF} alt="Simon Says Memory Game And Drum Machine" width="140" height="75"/>
+        <img src={SimonSaysGIF} alt="Simon Says Memory Game And Drum Machine" />
 
         <div className={styles.card1container}>
           <h2>"Simon Says Sampler"</h2>
-          <h3>HTML, CSS, Vanilla JS</h3>
+          <h3>HTML, CSS, JavaScript</h3>
           <br></br>
-          <h3>A web application drum machine modeled in the style of an AKAI MPC. Use your keyboard to play a beat, or try a "Simon Says"-esque rhythmic memory game.</h3>
+          <h4>A web application drum machine modeled in the style of an AKAI MPC. Use your keyboard to play a beat, or try a "Simon Says"-esque rhythmic memory game.</h4>
           <br></br>
           <a href='https://github.com/KhakiSuitValentino/Unit1-Project1'>View On Github</a> <span> | </span> <a href='https://taflowersiii.github.io/Unit1-Project1/'>View Deployment</a>
         </div>
@@ -33,19 +36,22 @@ export default function Projects() {
       </div>
 
       <div className={styles.card2}>
-        <br></br>
-        <img src={NVPGIF} alt="Nostalgic Video Pasture" width="140" height="75"/>
 
         <div className={styles.card2container}>
-          <h2>"Videotape Pasture"</h2>
-          <h3>HTML, CSS, JS, EJS, PostgresQL, Express</h3>
-          <br></br>
-          <h3>A community collection of nostalgic videos from Youtube. Users can share their favorite Youtube videos that invoke a sense of nostalgia.</h3>
-          <br></br>
-          <br></br>
-          <a href='https://github.com/KhakiSuitValentino/NostalgicVideoPasture'>View on Github</a>
-          <span> | </span>
-          <a href='https://www.videotape-pasture.fly.dev/'>View Deployment</a>
+
+          <img id={styles.card2img} src={NVPGIF} alt="Nostalgic Video Pasture"/>
+
+          <h2 id={styles.card2h2}>"Nostalgic Video Pasture"</h2>
+
+          <h3 id={styles.card2h3}>HTML, CSS, JS, EJS, PostgresQL, Express</h3>
+
+          <h4 id={styles.card2h4}>A community collection of nostalgic videos from Youtube. Users can share their favorite Youtube videos that invoke a sense of nostalgia.</h4>
+
+          <div id={styles.card2links}>
+            <a href='https://github.com/KhakiSuitValentino/NostalgicVideoPasture'>View on Github</a>
+              <span> | </span>
+            <a href='https://www.videotape-pasture.fly.dev/'>View Deployment</a>
+          </div>
           
         </div>
 
