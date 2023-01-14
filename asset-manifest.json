@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.de853f1b.css",
-    "main.js": "/static/js/main.e65ac554.js",
-    "static/media/nostalgicvideopasture-video.gif": "/static/media/nostalgicvideopasture-video.6dbfc35a4ff265508ea9.gif",
-    "static/media/podcats-video.gif": "/static/media/podcats-video.c1db40cf946dc00baa2a.gif",
-    "static/media/aboutme-photo.jpeg": "/static/media/aboutme-photo.019f08078cd9395e27cb.jpeg",
-    "static/media/simonsays-video.gif": "/static/media/simonsays-video.d1bf156789810dbdb707.gif",
-    "static/media/burgundy-sequencer-video.gif": "/static/media/burgundy-sequencer-video.f9a282d9ca664862ee8b.gif",
-    "static/media/thomaspic.jpg": "/static/media/thomaspic.4bfc43dee3b591c95fb8.jpg",
-    "static/media/flowerbackground.jpeg": "/static/media/flowerbackground.da50a769960e3109061d.jpeg",
-    "static/media/css-icon.png": "/static/media/css-icon.75637854ae9526feeec9.png",
-    "static/media/node-js-icon.png": "/static/media/node-js-icon.d0fce6a61a85a63fef1d.png",
-    "static/media/html-icon.png": "/static/media/html-icon.3cdaa62ed2399d0311e0.png",
-    "static/media/python-icon.png": "/static/media/python-icon.d7968a1ae97ecaa35c82.png",
-    "static/media/javascript-icon.png": "/static/media/javascript-icon.d73f642219d66430a727.png",
-    "static/media/sql-icon.png": "/static/media/sql-icon.664a0ec214eec0cbd541.png",
-    "static/media/react-icon.png": "/static/media/react-icon.e71f4c5b0c4306d65355.png",
-    "static/media/mongodb-icon.png": "/static/media/mongodb-icon.8536761a1a2828a4ae59.png",
-    "index.html": "/index.html",
-    "main.de853f1b.css.map": "/static/css/main.de853f1b.css.map",
-    "main.e65ac554.js.map": "/static/js/main.e65ac554.js.map"
+    "main.css": "/taflowers-portfolio/static/css/main.8e309940.css",
+    "main.js": "/taflowers-portfolio/static/js/main.8948d9ef.js",
+    "static/media/nostalgicvideopasture-video.gif": "/taflowers-portfolio/static/media/nostalgicvideopasture-video.6dbfc35a4ff265508ea9.gif",
+    "static/media/podcats-video.gif": "/taflowers-portfolio/static/media/podcats-video.c1db40cf946dc00baa2a.gif",
+    "static/media/aboutme-photo.jpeg": "/taflowers-portfolio/static/media/aboutme-photo.019f08078cd9395e27cb.jpeg",
+    "static/media/simonsays-video.gif": "/taflowers-portfolio/static/media/simonsays-video.d1bf156789810dbdb707.gif",
+    "static/media/burgundy-sequencer-video.gif": "/taflowers-portfolio/static/media/burgundy-sequencer-video.f9a282d9ca664862ee8b.gif",
+    "static/media/thomaspic.jpg": "/taflowers-portfolio/static/media/thomaspic.4bfc43dee3b591c95fb8.jpg",
+    "static/media/flowerbackground.jpeg": "/taflowers-portfolio/static/media/flowerbackground.da50a769960e3109061d.jpeg",
+    "static/media/css-icon.png": "/taflowers-portfolio/static/media/css-icon.75637854ae9526feeec9.png",
+    "static/media/node-js-icon.png": "/taflowers-portfolio/static/media/node-js-icon.d0fce6a61a85a63fef1d.png",
+    "static/media/html-icon.png": "/taflowers-portfolio/static/media/html-icon.3cdaa62ed2399d0311e0.png",
+    "static/media/python-icon.png": "/taflowers-portfolio/static/media/python-icon.d7968a1ae97ecaa35c82.png",
+    "static/media/javascript-icon.png": "/taflowers-portfolio/static/media/javascript-icon.d73f642219d66430a727.png",
+    "static/media/sql-icon.png": "/taflowers-portfolio/static/media/sql-icon.664a0ec214eec0cbd541.png",
+    "static/media/react-icon.png": "/taflowers-portfolio/static/media/react-icon.e71f4c5b0c4306d65355.png",
+    "static/media/mongodb-icon.png": "/taflowers-portfolio/static/media/mongodb-icon.8536761a1a2828a4ae59.png",
+    "index.html": "/taflowers-portfolio/index.html",
+    "main.8e309940.css.map": "/taflowers-portfolio/static/css/main.8e309940.css.map",
+    "main.8948d9ef.js.map": "/taflowers-portfolio/static/js/main.8948d9ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.de853f1b.css",
-    "static/js/main.e65ac554.js"
+    "static/css/main.8e309940.css",
+    "static/js/main.8948d9ef.js"
   ]
 }
