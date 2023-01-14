@@ -11,32 +11,40 @@ body, html {
      background-position: center center;
 
      display: grid;
-     grid-template-rows: 5% 10% 45% 35% 5%;
+     grid-template-rows: 5% 12.5% 50% 27.5% 5%;
 
-     background-color: #01150D;
-     background-image: linear-gradient(rgba(0, 40, 84, 0.52), rgba(1, 22, 69, 0.58)), url('https://wallpaperaccess.com/full/322837.jpg');
-     color: antiquewhite;
+     background-color: #010e15;
+     background-image: linear-gradient(rgba(40, 60, 84, 0.61), rgba(41, 62, 69, 0.69)), url('https://wallpaperaccess.com/full/322837.jpg');
+     color: white;
 
 }
 
 #header {
      grid-row: 2;
-     font-size: 5vh;
+     font-size: 5.5vh;
      place-self: center;
 }
 
 #photo {
-     grid-row: 3;
-     background: url("../images/aboutme-photo.jpeg");
-     background-size: contain;
-     background-repeat: no-repeat;
-     background-position: center;
+     grid-row-start: 3;
+     grid-row-end: 4;
+     text-align: center;
+     
+     img {
+          width: 100%;
+          max-width: 750px;
+          height: 100%;
+          max-height: 504px;
+          object-fit: contain;
+          filter: sepia(30%) invert(7%) brightness(95%);
+     }
 }
 
 #text{
      grid-row: 4;
      place-self: center;
-     padding-left: 8.5%;
-     padding-right: 8.5%;
-     font-size: 2.25vh;
+     padding-left: 12.5%;
+     padding-right: 12.5%;
+     font-size: 2.5vh;
+     text-align: center;
 }
