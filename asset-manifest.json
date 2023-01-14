@@ -1,11 +1,10 @@
 {
   "files": {
-    "main.css": "/taflowers-portfolio/static/css/main.78764a56.css",
-    "main.js": "/taflowers-portfolio/static/js/main.e6d277fd.js",
+    "main.css": "/taflowers-portfolio/static/css/main.8e309940.css",
+    "main.js": "/taflowers-portfolio/static/js/main.8948d9ef.js",
     "static/media/nostalgicvideopasture-video.gif": "/taflowers-portfolio/static/media/nostalgicvideopasture-video.6dbfc35a4ff265508ea9.gif",
     "static/media/podcats-video.gif": "/taflowers-portfolio/static/media/podcats-video.c1db40cf946dc00baa2a.gif",
     "static/media/aboutme-photo.jpeg": "/taflowers-portfolio/static/media/aboutme-photo.019f08078cd9395e27cb.jpeg",
-    "static/media/anotheraboutme.jpeg": "/taflowers-portfolio/static/media/anotheraboutme.b3b172fc71541fd659a9.jpeg",
     "static/media/simonsays-video.gif": "/taflowers-portfolio/static/media/simonsays-video.d1bf156789810dbdb707.gif",
     "static/media/burgundy-sequencer-video.gif": "/taflowers-portfolio/static/media/burgundy-sequencer-video.f9a282d9ca664862ee8b.gif",
     "static/media/thomaspic.jpg": "/taflowers-portfolio/static/media/thomaspic.4bfc43dee3b591c95fb8.jpg",
@@ -19,11 +18,11 @@
     "static/media/react-icon.png": "/taflowers-portfolio/static/media/react-icon.e71f4c5b0c4306d65355.png",
     "static/media/mongodb-icon.png": "/taflowers-portfolio/static/media/mongodb-icon.8536761a1a2828a4ae59.png",
     "index.html": "/taflowers-portfolio/index.html",
-    "main.78764a56.css.map": "/taflowers-portfolio/static/css/main.78764a56.css.map",
-    "main.e6d277fd.js.map": "/taflowers-portfolio/static/js/main.e6d277fd.js.map"
+    "main.8e309940.css.map": "/taflowers-portfolio/static/css/main.8e309940.css.map",
+    "main.8948d9ef.js.map": "/taflowers-portfolio/static/js/main.8948d9ef.js.map"
   },
   "entrypoints": [
-    "static/css/main.78764a56.css",
-    "static/js/main.e6d277fd.js"
+    "static/css/main.8e309940.css",
+    "static/js/main.8948d9ef.js"
   ]
 }
