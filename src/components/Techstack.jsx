@@ -18,6 +18,7 @@ export default function Works() {
     <>
 
     <div className={styles.stack}>
+
       <h1>Tech Stack:</h1>
 
       <div className={styles.javascript}>
