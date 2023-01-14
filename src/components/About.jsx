@@ -21,7 +21,7 @@ function About() {
       <div id={styles.text}>
 
         <h4>
-          I am thrilled to have discovered the creative world of software computer programming and development. As I highly value my creative output, so too do I value opportunities to exercise creativity. I find pleasure in creating an application from scratch, or attempting to solve problems in a creative way, or discussing new ideas and possibilities with others in the field.
+          I am thrilled to have discovered the creative world of software programming and development. As I highly value my creative output, so too do I value opportunities to exercise creativity. I find pleasure in creating an application from scratch, or attempting to solve problems in a creative way, or discussing new ideas and possibilities with others in the field.
         </h4>
         <br></br>
         <h4>In my free time, away from work, I greatly enjoy combining the creative expression of programming with other creative expressions of mine, such as music and photography. As I rely heavily on technology for my creative expressions, I am excited to be a part of an industry that creates applications that can inspire more creativity in others. </h4>
