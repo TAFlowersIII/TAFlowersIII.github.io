@@ -8,65 +8,58 @@
      z-index: 2;
      text-align: center;
 
-     .wrapper{
-          padding: 1vh 4vh;
-          display: grid;
-          grid-template-columns: 1fr 1fr 1fr 1fr;
-          align-items: center;
-          vertical-align: text-top;
-          justify-content: space-between;
+     #home {
+          background-color: #390918;
+          color: lightpink;
+     }
+     
+     #projects {
+          background-color: #170226;
+          color: #ffb9ea;
+     }
+     
+     #techstack {
+          background-color: #0a0217;
+          color: #e1c3f5;
+     }
+     
+     #about {
+          background-color: #022335;
+          color: antiquewhite;
+     }
+
+}
+
+.wrapper{
+     padding: 1vh 4vh;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     align-items: center;
+     vertical-align: text-top;
+     justify-content: space-between;
 
           a:hover {
                color:antiquewhite;
                transition: ease-in-out 1s;
-          }
-
-
-          .homelink 
-               {
-               font-size: 2.5vh;
-               text-decoration: underline;
-               color: inherit;
-               }
-
-          .portfoliolink 
-               {
-               font-size: 2.5vh;
-               text-decoration: underline;
-               color: inherit;
-               }
-
-
-          .techstacklink {
-               font-size: 2.5vh;
-               text-decoration: underline;
-               color: inherit;
-               }
-
-          .aboutlink {
-               font-size: 2.5vh;
-               text-decoration: underline;
-               color: inherit;
-          }
-     }
+          }   
 }
 
-#home .topbar {
-     background-color: #390918;
-     color: lightpink;
+.homelink  {
+     font-size: 2.5vh;
+     text-decoration: underline;
 }
 
-#projects .topbar {
-     background-color: #170226;
-     color: #ffb9ea;
+.portfoliolink  {
+     font-size: 2.5vh;
+     text-decoration: underline;
 }
 
-#techstack .topbar {
-     background-color: #0a0217;
-     color: #e1c3f5;
+.techstacklink {
+     font-size: 2.5vh;
+     text-decoration: underline;
 }
 
-#about .topbar {
-     background-color: #022335;
-     color: antiquewhite;
+.aboutlink {
+     font-size: 2.5vh;
+     text-decoration: underline;
 }

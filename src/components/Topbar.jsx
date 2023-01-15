@@ -1,51 +1,51 @@
 import React from 'react'
-import { createContext, useState } from 'react';
+import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import styles from '../styles/Topbar.module.scss'
-
-export const ThemeContext = createContext(null);
 
 function Topbar() {
   
   let [theme, setTheme] = useState('')
   const navigate = useNavigate();
 
-  let homeSwitch = () => {
-    theme = 'home';
+  const homeSwitch = () => {
     navigate("/");
-    console.log('homeSwitch');
+    setTheme("styles.home");
+    // console.log('homeSwitch');
+    // console.log(theme);
   };
 
-  let projectsSwitch = () => {
-    theme = 'projects';
+  const projectsSwitch = () => {
     navigate("/projects");
-    console.log('projectsSwitch');
+    setTheme("styles.projects");
+    // console.log('projectsSwitch');
+    // console.log(theme);
   };
 
-  let techstackSwitch = () => {
-    theme = 'techstack';
+  const techstackSwitch = () => {
     navigate("/techstack");
-    console.log('techstackSwitch');
+    setTheme("styles.techstack");
+    // console.log('techstackSwitch');
+    // console.log(theme);
   };
 
-  let aboutSwitch = () => {
-    theme = 'about';
+  const aboutSwitch = () => {
     navigate("/about");
-    console.log('aboutSwitch');
+    setTheme("styles.about");
+    // console.log('aboutSwitch');
+    // console.log(theme);
   };
   
 
   return (
-    <ThemeContext.Provider value={{ theme, setTheme }}>
-      <div className={styles.topbar} id={theme}>
+      <div className={styles.topbar}  id={theme}>
         <div className={styles.wrapper}>
-            <a className={styles.homelink} onClick={homeSwitch}>Home</a>
-            <a className={styles.portfoliolink} onClick={projectsSwitch}>Projects</a>
-            <a className={styles.techstacklink} onClick={techstackSwitch}>Tech Stack</a>
-            <a className={styles.aboutlink} onClick={aboutSwitch}>About</a>
+            <h1 className={styles.homelink} onClick={homeSwitch}>Home</h1>
+            <h1 className={styles.portfoliolink} onClick={projectsSwitch}>Projects</h1>
+            <h1 className={styles.techstacklink} onClick={techstackSwitch}>Tech Stack</h1>
+            <h1 className={styles.aboutlink} onClick={aboutSwitch}>About</h1>
         </div>
       </div>
-    </ThemeContext.Provider>
   );
   }
 
