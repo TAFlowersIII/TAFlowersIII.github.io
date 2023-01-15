@@ -8,7 +8,7 @@ export const ThemeContext = createContext(null);
 function Topbar() {
   
   let [theme, setTheme] = useState('')
-  let navigate = useNavigate();
+  const navigate = useNavigate();
 
   let homeSwitch = () => {
     theme = 'home';
@@ -18,19 +18,19 @@ function Topbar() {
 
   let projectsSwitch = () => {
     theme = 'projects';
-    navigate("/projects")
+    navigate("/projects");
     console.log('projectsSwitch');
   };
 
   let techstackSwitch = () => {
     theme = 'techstack';
-    navigate = ("/techstack");
+    navigate("/techstack");
     console.log('techstackSwitch');
   };
 
   let aboutSwitch = () => {
     theme = 'about';
-    navigate = ("/about");
+    navigate("/about");
     console.log('aboutSwitch');
   };
   
