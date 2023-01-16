@@ -58,7 +58,7 @@ export default function Projects() {
           <div id={styles.card2links}>
             <a href='https://github.com/KhakiSuitValentino/NostalgicVideoPasture'>View on Github</a>
               <span> | </span>
-            <a href='https://www.videotape-pasture.fly.dev/'>View Deployment</a>
+            <a href='https://videotape-pasture.fly.dev/'>View Deployment</a>
           </div>
           
         </div>
