@@ -40,10 +40,10 @@ function Topbar() {
   return (
       <div className={styles.topbar}  id={theme}>
         <div className={styles.wrapper}>
-            <h1 className={styles.homelink} onClick={homeSwitch}>Home</h1>
-            <h1 className={styles.portfoliolink} onClick={projectsSwitch}>Projects</h1>
-            <h1 className={styles.techstacklink} onClick={techstackSwitch}>Tech Stack</h1>
-            <h1 className={styles.aboutlink} onClick={aboutSwitch}>About</h1>
+            <a className={styles.homelink} onClick={homeSwitch}>Home</a>
+            <a className={styles.portfoliolink} onClick={projectsSwitch}>Projects</a>
+            <a className={styles.techstacklink} onClick={techstackSwitch}>Tech Stack</a>
+            <a className={styles.aboutlink} onClick={aboutSwitch}>About</a>
         </div>
       </div>
   );

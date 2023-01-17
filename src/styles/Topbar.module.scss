@@ -6,7 +6,7 @@
      position: fixed;
      top: 0;
      z-index: 2;
-     text-align: center;
+
 
      #home {
           background-color: #390918;
@@ -31,12 +31,11 @@
 }
 
 .wrapper{
-     padding: 1vh 4vh;
-     display: grid;
-     grid-template-columns: 1fr 1fr 1fr 1fr;
+     height: 5vh;
+     display: flex;
+     flex-flow: row nowrap;
      align-items: center;
-     vertical-align: text-top;
-     justify-content: space-between;
+     justify-content: space-evenly;
 
           a:hover {
                color:antiquewhite;
