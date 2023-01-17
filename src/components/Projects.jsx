@@ -107,7 +107,7 @@ export default function Projects() {
           <div id={styles.card4links}>
             <a href='https://github.com/KhakiSuitValentino/BurgundySequencer'>View on Github</a>
               <span> | </span>
-            <a href='https://silver-beignet-215e62.netlify.app/cats'>View Deployment</a>
+            <a href='https://taflowersiii.itch.io/burgundy-sequencer'>View Deployment</a>
           </div>
 
         </div>
