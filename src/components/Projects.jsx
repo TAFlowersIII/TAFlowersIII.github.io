@@ -34,7 +34,7 @@ export default function Projects() {
           <h4 id={styles.card1description}>A web application drum machine modeled in the style of an AKAI MPC. Use your keyboard to play a beat, or try a "Simon Says"-esque rhythmic memory game.</h4>
 
           <div id={styles.card1links}>
-            <a href='https://github.com/KhakiSuitValentino/Unit1-Project1'>View On Github</a> <span> | </span> <a href='https://taflowersiii.github.io/Unit1-Project1/'>View Deployment</a>
+            <a href='https://taflowersiii.github.io/SS808-Simons-Sampler/'>View On Github</a> <span> | </span> <a href='https://taflowersiii.github.io/Unit1-Project1/'>View Deployment</a>
           </div>
         </div>
 
